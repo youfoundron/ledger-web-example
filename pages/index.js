@@ -27,6 +27,7 @@ function Main () {
         setErrorMessage(null)
       } catch (err) {
         setErrorMessage(err.message)
+        console.error(err)
       }
     }
     getLedgerAddress()
