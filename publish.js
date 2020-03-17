@@ -3,8 +3,8 @@ const { promisify } = require('bluebird')
 
 promisify(publish)('out', {
   src: '**/*',
-  branch: 'master',
-  repo: 'git@github.com:youfoundron.github.io/ledger-web-example.git',
+  branch: 'gh-pages',
+  // repo: 'git@github.com:youfoundron.github.io/ledger-web-example.git',
   message: `manual publish - ${new Date()}`
 }).then(() => {
   console.log('Successfully published!')

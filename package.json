@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next export -o docs/"
+    "export": "next export",
+    "gh-pages": "node publish.js"
   },
   "dependencies": {
     "@ledgerhq/hw-app-eth": "^5.11.0",
