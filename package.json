@@ -1,0 +1,19 @@
+{
+  "name": "ledger-web-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@ledgerhq/hw-app-eth": "^5.11.0",
+    "@ledgerhq/hw-transport-u2f": "^5.11.0",
+    "next": "^9.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
