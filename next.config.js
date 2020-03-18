@@ -6,5 +6,5 @@ module.exports = {
       '/': { page: '/' }
     }
   },
-  assetPrefix: isDev ? '/ledger-web-example' : ''
+  assetPrefix: isDev ? '' : 'https://youfoundron.github.io/ledger-web-example/'
 }
