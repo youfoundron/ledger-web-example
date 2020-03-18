@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import AppEth from '@ledgerhq/hw-app-eth'
 import TransportU2F from '@ledgerhq/hw-transport-u2f'
 
-const HD_PATH = `44'/60'/0'/0`
+const HD_PATH = `44'/60'/0'/0/0`
 
 async function makeApp () {
   const transport = await TransportU2F.create()
