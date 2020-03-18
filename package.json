@@ -11,6 +11,8 @@
     "gh-pages": "node publish.js"
   },
   "dependencies": {
+    "@ledgerhq/hw-app-eth": "^5.11.0",
+    "@ledgerhq/hw-transport-u2f": "^5.11.0",
     "bluebird": "^3.7.2",
     "gh-pages": "^2.2.0",
     "https": "^1.0.0",
